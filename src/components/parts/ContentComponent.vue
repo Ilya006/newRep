@@ -2,7 +2,7 @@
   <div>
     <div class="preloader" ref="preloader">
       <div class="preloader-wrap">
-        <img src="@/assets/img/preloader.svg" alt="" />
+        <img src="@/assets/img/content/preloader.svg" alt="" />
       </div>
     </div>
     <main class="content-sidebar">
@@ -10,31 +10,31 @@
         <ul class="left-menu">
           <li class="left-menu__item">
             <a href="#" class="left-menu__link active open-modal">
-              <img src="@/assets/img/menu-1.svg" alt="" />
+              <img src="@/assets/img/content/menu-1.svg" alt="" />
               <span>Portfolio</span>
             </a>
           </li>
           <li class="left-menu__item">
             <a href="#" class="left-menu__link open-modal">
-              <img src="@/assets/img/menu-2.svg" alt="" />
+              <img src="@/assets/img/content/menu-2.svg" alt="" />
               <span>Airdrops</span>
             </a>
           </li>
           <li class="left-menu__item">
             <a href="#" class="left-menu__link open-modal">
-              <img src="@/assets/img/menu-3.svg" alt="" />
+              <img src="@/assets/img/content/menu-3.svg" alt="" />
               <span>NFT Value Estimator</span>
             </a>
           </li>
           <li class="left-menu__item">
             <a href="#" class="left-menu__link open-modal">
-              <img src="@/assets/img/menu-4.svg" alt="" />
+              <img src="@/assets/img/content/menu-4.svg" alt="" />
               <span>Token Swap</span>
             </a>
           </li>
           <li class="left-menu__item">
             <a href="#" class="left-menu__link open-modal">
-              <img src="@/assets/img/menu-5.svg" alt="" />
+              <img src="@/assets/img/content/menu-5.svg" alt="" />
               <span>Token Explorer</span>
             </a>
           </li>
@@ -80,18 +80,18 @@
             <div class="wallet-buttons">
               <button type="button" @click.prevent="connect('mm')">
                 <span>MetaMask</span>
-                <img src="@/assets/img/metamask.svg" alt="" />
+                <img src="@/assets/img/content/metamask.svg" alt="" />
               </button>
               <button type="button" @click.prevent="connect('wc')">
                 <span>WalletConnect</span>
-                <img src="@/assets/img/walletconnect.svg" alt="" />
+                <img src="@/assets/img/content/walletconnect.svg" alt="" />
               </button>
             </div>
           </form>
         </div>
         <div class="wallet-holdings">
           <img
-            src="@/assets/img/wallet_landing_assets.png"
+            src="@/assets/img/content/wallet_landing_assets.png"
             class="wallet-holdings__img"
             alt=""
             title=""
@@ -115,7 +115,7 @@
             </p>
           </div>
           <img
-            src="@/assets/img/wallet_landing_nft.png"
+            src="@/assets/img/content/wallet_landing_nft.png"
             class="nft-portfolio__img"
             alt=""
             title=""

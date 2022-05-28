@@ -34,38 +34,38 @@
     </div>
     <div class="social-wrap">
       <div class="footer-logo">
-        <img src="@/assets/img/footer-logo.svg" alt="" />
+        <img src="@/assets/img/content/footer-logo.svg" alt="" />
         <span class="footer-logo__text">The World’s Dapp Store</span>
       </div>
       <ul class="social">
         <li class="social__item">
           <a href="#" class="social__link open-modal">
-            <img src="@/assets/img/fb.svg" alt="" />
+            <img src="@/assets/img/content/fb.svg" alt="" />
           </a>
         </li>
         <li class="social__item">
           <a href="#" class="social__link open-modal">
-            <img src="@/assets/img/tw.svg" alt="" />
+            <img src="@/assets/img/content/tw.svg" alt="" />
           </a>
         </li>
         <li class="social__item">
           <a href="#" class="social__link open-modal">
-            <img src="@/assets/img/di.svg" alt="" />
+            <img src="@/assets/img/content/di.svg" alt="" />
           </a>
         </li>
         <li class="social__item">
           <a href="#" class="social__link open-modal">
-            <img src="@/assets/img/reddit.svg" alt="" />
+            <img src="@/assets/img/content/reddit.svg" alt="" />
           </a>
         </li>
         <li class="social__item">
           <a href="#" class="social__link open-modal">
-            <img src="@/assets/img/tg.svg" alt="" />
+            <img src="@/assets/img/content/tg.svg" alt="" />
           </a>
         </li>
         <li class="social__item">
           <a href="#" class="social__link open-modal">
-            <img src="@/assets/img/yt.svg" alt="" />
+            <img src="@/assets/img/content/yt.svg" alt="" />
           </a>
         </li>
       </ul>
@@ -181,19 +181,19 @@
           List of services that we’re using to calculate data:
         </p>
         <img
-          src="@/assets/img/provider-cryptocompare.webp"
+          src="@/assets/img/content/provider-cryptocompare.webp"
           class="cryptocompare-logo"
           alt=""
           title=""
         />
         <img
-          src="@/assets/img/provider-coingecko.webp"
+          src="@/assets/img/content/provider-coingecko.webp"
           class="coingecko-logo"
           alt=""
           title=""
         />
         <img
-          src="@/assets/img/provider-marketcapone.webp"
+          src="@/assets/img/content/provider-marketcapone.webp"
           class="marketcapone-logo"
           alt=""
           title=""

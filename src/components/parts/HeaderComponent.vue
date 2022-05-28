@@ -3,21 +3,21 @@
     <div class="header__wrap">
       <a href="#" class="header-logo">
         <span class="mobile-only">
-          <img src="@/assets/img/logo_m.svg" alt="" />
+          <img src="@/assets/img/content/logo_m.svg" alt="" />
         </span>
 
         <span class="header-logo__img">
-          <img src="@/assets/img/logo.svg" alt="" />
+          <img src="@/assets/img/content/logo.svg" alt="" />
         </span>
       </a>
       <div class="menu">
         <button class="menu__button">
-          <img src="@/assets/img/menu.svg" alt="" />
+          <img src="@/assets/img/content/menu.svg" alt="" />
         </button>
         <ul class="menu__list">
           <li class="menu__item">
             <a href="#" class="menu__link open-modal">
-              <img src="@/assets/img/menu-toggle-1.svg" alt="" />
+              <img src="@/assets/img/content/menu-toggle-1.svg" alt="" />
               <div class="menu__text-wrap">
                 <div>
                   <span class="menu__title">Rankings</span>
@@ -28,7 +28,7 @@
           </li>
           <li class="menu__item">
             <a href="#" class="menu__link open-modal">
-              <img src="@/assets/img/menu-toggle-2.svg" alt="" />
+              <img src="@/assets/img/content/menu-toggle-2.svg" alt="" />
               <div class="menu__text-wrap">
                 <div>
                   <span class="menu__title">DeFi</span>
@@ -39,7 +39,7 @@
           </li>
           <li class="menu__item">
             <a href="#" class="menu__link open-modal">
-              <img src="@/assets/img/menu-toggle-3.svg" alt="" />
+              <img src="@/assets/img/content/menu-toggle-3.svg" alt="" />
               <div class="menu__text-wrap">
                 <div>
                   <span class="menu__title">NFTs</span>
@@ -50,7 +50,7 @@
           </li>
           <li class="menu__item">
             <a href="#" class="menu__link open-modal">
-              <img src="@/assets/img/menu-toggle-4.svg" alt="" />
+              <img src="@/assets/img/content/menu-toggle-4.svg" alt="" />
               <div class="menu__text-wrap">
                 <div>
                   <span class="menu__title">Portfolio</span>
@@ -62,7 +62,7 @@
           </li>
           <li class="menu__item">
             <a href="#" class="menu__link open-modal">
-              <img src="@/assets/img/menu-toggle-5.svg" alt="" />
+              <img src="@/assets/img/content/menu-toggle-5.svg" alt="" />
               <div class="menu__text-wrap">
                 <div>
                   <span class="menu__title">Token Explorer</span>
@@ -74,7 +74,7 @@
           </li>
           <li class="menu__item">
             <a href="#" class="menu__link open-modal">
-              <img src="@/assets/img/menu-toggle-6.svg" alt="" />
+              <img src="@/assets/img/content/menu-toggle-6.svg" alt="" />
               <div class="menu__text-wrap">
                 <div>
                   <span class="menu__title">Airdrops</span>
@@ -86,7 +86,7 @@
           </li>
           <li class="menu__item">
             <a href="#" class="menu__link open-modal">
-              <img src="@/assets/img/menu-toggle-7.svg" alt="" />
+              <img src="@/assets/img/content/menu-toggle-7.svg" alt="" />
               <div class="menu__text-wrap">
                 <div>
                   <span class="menu__title">Developers</span>
@@ -97,7 +97,7 @@
           </li>
           <li class="menu__item">
             <a href="#" class="menu__link open-modal">
-              <img src="@/assets/img/menu-toggle-8.svg" alt="" />
+              <img src="@/assets/img/content/menu-toggle-8.svg" alt="" />
               <div class="menu__text-wrap">
                 <div>
                   <span class="menu__title">Reports</span>
@@ -108,7 +108,7 @@
           </li>
           <li class="menu__item">
             <a href="#" class="menu__link open-modal">
-              <img src="@/assets/img/menu-toggle-9.svg" alt="" />
+              <img src="@/assets/img/content/menu-toggle-9.svg" alt="" />
               <div class="menu__text-wrap">
                 <div>
                   <span class="menu__title">Industry Overview</span>
@@ -146,15 +146,15 @@
         </ul>
       </nav>
       <button type="button" class="search open-modal">
-        <img src="@/assets/img/search.svg" alt="" />
+        <img src="@/assets/img/content/search.svg" alt="" />
       </button>
       <button type="button" class="notifications open-modal">
-        <img src="@/assets/img/bell.svg" alt="" />
+        <img src="@/assets/img/content/bell.svg" alt="" />
       </button>
       <div class="account-menu">
         <div class="account-menu__login open-modal">
-          <img src="@/assets/img/user.svg" alt="" />
-          <img src="@/assets/img/drop.svg" alt="" />
+          <img src="@/assets/img/content/user.svg" alt="" />
+          <img src="@/assets/img/content/drop.svg" alt="" />
         </div>
         <span class="account-menu__text open-modal">Connect</span>
       </div>
