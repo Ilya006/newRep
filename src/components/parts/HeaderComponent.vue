@@ -13,107 +13,148 @@
       <div class="menu">
         <button class="menu__button">
           <img src="@/assets/img/content/menu.svg" alt="" />
+          <p class="open-modal"></p>
         </button>
         <ul class="menu__list">
-          <li class="menu__item">
+          <li class="menu__item open-modal">
             <a href="#" class="menu__link open-modal">
               <img src="@/assets/img/content/menu-toggle-1.svg" alt="" />
-              <div class="menu__text-wrap">
-                <div>
-                  <span class="menu__title">Rankings</span>
+              <div class="menu__text-wrap open-modal">
+                <div class="open-modal">
+                  <span class="menu__title open-modal">Rankings</span>
                 </div>
-                <p>Track, discover and analyze the latest dapps</p>
+                <p class="open-modal">
+                  Track, discover and analyze the latest dapps
+                </p>
               </div>
             </a>
           </li>
-          <li class="menu__item">
+          <li class="menu__item open-modal">
             <a href="#" class="menu__link open-modal">
-              <img src="@/assets/img/content/menu-toggle-2.svg" alt="" />
-              <div class="menu__text-wrap">
-                <div>
-                  <span class="menu__title">DeFi</span>
+              <img
+                class="open-modal"
+                src="@/assets/img/content/menu-toggle-2.svg"
+                alt=""
+              />
+              <div class="menu__text-wrap open-modal">
+                <div class="open-modal">
+                  <span class="menu__title open-modal">DeFi</span>
                 </div>
-                <p>Discover, track, analyze and view DeFi rankings</p>
+                <p class="open-modal">
+                  Discover, track, analyze and view DeFi rankings
+                </p>
               </div>
             </a>
           </li>
-          <li class="menu__item">
+          <li class="menu__item open-modal">
             <a href="#" class="menu__link open-modal">
-              <img src="@/assets/img/content/menu-toggle-3.svg" alt="" />
-              <div class="menu__text-wrap">
-                <div>
-                  <span class="menu__title">NFTs</span>
+              <img
+                class="open-modal"
+                src="@/assets/img/content/menu-toggle-3.svg"
+                alt=""
+              />
+              <div class="menu__text-wrap open-modal">
+                <div class="open-modal">
+                  <span class="menu__title open-modal">NFTs</span>
                 </div>
-                <p>Track realtime NFT markets</p>
+                <p class="open-modal">Track realtime NFT markets</p>
               </div>
             </a>
           </li>
-          <li class="menu__item">
+          <li class="menu__item open-modal">
             <a href="#" class="menu__link open-modal">
-              <img src="@/assets/img/content/menu-toggle-4.svg" alt="" />
-              <div class="menu__text-wrap">
-                <div>
-                  <span class="menu__title">Portfolio</span>
+              <img
+                class="open-modal"
+                src="@/assets/img/content/menu-toggle-4.svg"
+                alt=""
+              />
+              <div class="menu__text-wrap open-modal">
+                <div class="open-modal">
+                  <span class="menu__title open-modal">Portfolio</span>
                   <mark>hot</mark>
                 </div>
-                <p>Track, analyze and manage your wallets</p>
+                <p class="open-modal">Track, analyze and manage your wallets</p>
               </div>
             </a>
           </li>
-          <li class="menu__item">
+          <li class="menu__item open-modal">
             <a href="#" class="menu__link open-modal">
-              <img src="@/assets/img/content/menu-toggle-5.svg" alt="" />
-              <div class="menu__text-wrap">
-                <div>
-                  <span class="menu__title">Token Explorer</span>
+              <img
+                class="open-modal"
+                src="@/assets/img/content/menu-toggle-5.svg"
+                alt=""
+              />
+              <div class="menu__text-wrap open-modal">
+                <div class="open-modal">
+                  <span class="menu__title open-modal">Token Explorer</span>
                   <mark>new!</mark>
                 </div>
-                <p>View and swap with the latest token prices and data</p>
+                <p class="open-modal">
+                  View and swap with the latest token prices and data
+                </p>
               </div>
             </a>
           </li>
-          <li class="menu__item">
+          <li class="menu__item open-modal">
             <a href="#" class="menu__link open-modal">
-              <img src="@/assets/img/content/menu-toggle-6.svg" alt="" />
-              <div class="menu__text-wrap">
-                <div>
-                  <span class="menu__title">Airdrops</span>
+              <img
+                class="open-modal"
+                src="@/assets/img/content/menu-toggle-6.svg"
+                alt=""
+              />
+              <div class="menu__text-wrap open-modal">
+                <div class="open-modal">
+                  <span class="menu__title open-modal">Airdrops</span>
                   <mark class="red-mark">now live!</mark>
                 </div>
-                <p>Sign up for free DappRadar Airdrops</p>
+                <p class="open-modal">Sign up for free DappRadar Airdrops</p>
               </div>
             </a>
           </li>
-          <li class="menu__item">
+          <li class="menu__item open-modal">
             <a href="#" class="menu__link open-modal">
-              <img src="@/assets/img/content/menu-toggle-7.svg" alt="" />
-              <div class="menu__text-wrap">
-                <div>
-                  <span class="menu__title">Developers</span>
+              <img
+                class="open-modal"
+                src="@/assets/img/content/menu-toggle-7.svg"
+                alt=""
+              />
+              <div class="menu__text-wrap open-modal">
+                <div class="open-modal">
+                  <span class="menu__title open-modal">Developers</span>
                 </div>
-                <p>Build and advertise your dapps to the world</p>
+                <p class="open-modal">
+                  Build and advertise your dapps to the world
+                </p>
               </div>
             </a>
           </li>
-          <li class="menu__item">
+          <li class="menu__item open-modal">
             <a href="#" class="menu__link open-modal">
-              <img src="@/assets/img/content/menu-toggle-8.svg" alt="" />
-              <div class="menu__text-wrap">
-                <div>
-                  <span class="menu__title">Reports</span>
+              <img
+                class="open-modal"
+                src="@/assets/img/content/menu-toggle-8.svg"
+                alt=""
+              />
+              <div class="menu__text-wrap open-modal">
+                <div class="open-modal">
+                  <span class="menu__title open-modal">Reports</span>
                 </div>
-                <p>Read the latest industry reports</p>
+                <p class="open-modal">Read the latest industry reports</p>
               </div>
             </a>
           </li>
-          <li class="menu__item">
+          <li class="menu__item open-modal">
             <a href="#" class="menu__link open-modal">
-              <img src="@/assets/img/content/menu-toggle-9.svg" alt="" />
-              <div class="menu__text-wrap">
-                <div>
-                  <span class="menu__title">Industry Overview</span>
+              <img
+                class="open-modal"
+                src="@/assets/img/content/menu-toggle-9.svg"
+                alt=""
+              />
+              <div class="menu__text-wrap open-modal">
+                <div class="open-modal">
+                  <span class="menu__title open-modal">Industry Overview</span>
                 </div>
-                <p>A complete dapp industry overview</p>
+                <p class="open-modal">A complete dapp industry overview</p>
               </div>
             </a>
           </li>

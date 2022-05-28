@@ -10,7 +10,11 @@
         <ul class="left-menu">
           <li class="left-menu__item open-modal">
             <a href="#" class="left-menu__link active open-modal">
-              <img src="@/assets/img/content/menu-1.svg" alt="" />
+              <img
+                class="open-modal"
+                src="@/assets/img/content/menu-1.svg"
+                alt=""
+              />
               <span>Portfolio</span>
             </a>
           </li>
