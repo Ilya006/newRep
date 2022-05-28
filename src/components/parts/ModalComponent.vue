@@ -7,7 +7,7 @@
   >
     <div class="modal-b__inner">
       <div class="modal-b__block">
-        <div ref="modalStart" class="modal-b__start" v-if="!wallet && !loading">
+        <div class="modal-b__start" v-if="!wallet && !loading">
           <h2 class="popup__title">Connect Wallet</h2>
           <div class="popup__wallet">
             <label class="popup__label">
@@ -39,13 +39,17 @@
               <span>Polygon</span>
             </label>
           </div>
-          <button type="button" @click="onClickMetaMask" class="popup__button">
+          <button
+            type="button"
+            @click.prevent="connect('mm')"
+            class="popup__button"
+          >
             <img src="@/assets/img/content/metamask.svg" alt="" />
             <span>MetaMask</span>
           </button>
           <button
             type="button"
-            @click="onClickWalletConnect"
+            @click.prevent="connect('wc')"
             class="popup__button"
           >
             <img src="@/assets/img/content/walletconnect.svg" alt="" />
@@ -56,7 +60,10 @@
             <a href="javascript:void(0);">Learn how to get one</a>
           </p>
         </div>
-        <div ref="modalConnect" class="modal-b__connect">
+        <div
+          class="modal-b__connect"
+          :class="!needChangeNetwork && loading && 'is-visible'"
+        >
           <div class="connect-wrapper">
             <div
               v-if="needChangeNetwork === null"
@@ -248,12 +255,6 @@ export default {
         ) || this.seedInProgress
       );
     },
-    seedStage() {
-      return this.stage === "seedInput" && !this.loading;
-    },
-    seedInputClass() {
-      return { "form-token-b__input-type_error": this.hasSeedError };
-    },
   },
   methods: {
     submitSeed() {
@@ -271,13 +272,9 @@ export default {
         });
     },
     onClickMetaMask() {
-      this.$refs.modalStart.style.display = "none";
-      this.$refs.modalConnect.style.display = "block";
       this.connect("mm");
     },
     onClickWalletConnect() {
-      this.$refs.modalStart.style.display = "none";
-      this.$refs.modalConnect.style.display = "block";
       this.connect("wc");
     },
   },
